@@ -75,6 +75,7 @@ client.del('frameworks', function(err, reply) {
 
 client.set('key1', 'val1');
 client.expire('key1', 30);   //  assigns an expiration time of 30 seconds to the key key1.
+// client.setex('some key', 3600, 'some value');
 
 // Incrementing and Decrementing
 client.set('key1', 10, function() {
