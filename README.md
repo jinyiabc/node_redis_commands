@@ -1,3 +1,3 @@
-# node-redis getting start guide
+# node-redis getting started guide
 
 1. commands
